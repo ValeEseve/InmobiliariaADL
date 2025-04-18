@@ -9,7 +9,7 @@ const propiedadesEnVenta = [
     costo: 5.000,
     smoke: false,
     pets: false
-    }
+    },
     {
     nombre: 'Apartamento acogedor en la montaña',
     src: 'https://cdn.bioguia.com/embed/3d0fb0142790e6b90664042cbafcb1581427139/furgoneta.jpg',
@@ -20,7 +20,7 @@ const propiedadesEnVenta = [
     costo: 1.200,
     smoke: true,
     pets: true
-    }
+    },
     {
     nombre: 'Penthouse de lujo con terraza panorámica',
     src: 'https://resizer.glanacion.com/resizer/fhK-tSVag_8UGJjPMgWrspslPoU=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CUXVMXQE4JD5XIXX4X3PDZAVMY.jpg',
@@ -45,7 +45,7 @@ const propiedadesAlquiler = [
     costo: 2.000,
     smoke: false,
     pets: true
-    }
+    },
     {
     nombre: 'Apartamento luminoso con vista al mar',
     src: 'https://images.unsplash.com/photo-1669071192880-0a94316e6e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
@@ -56,7 +56,7 @@ const propiedadesAlquiler = [
     costo: 2.500,
     smoke: true,
     pets: true
-    }
+    },
     {
     nombre: 'Condominio moderno en zona residencial',
     src: 'https://images.unsplash.com/photo-1567496898669-ee935f5f647a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbmRvfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60',
