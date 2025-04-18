@@ -81,7 +81,7 @@ const propiedadesAlquiler = [
     },
     {
     nombre: 'Departamento moderno en zona residencial',
-    src: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.yapo.cl%2Fbienes-raices-venta-de-propiedades-apartamentos%2Fregion-metropolitana-buin&psig=AOvVaw2_6IocHmBXVbx99G1lURqV&ust=1745033184873000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDW1a3R4IwDFQAAAAAdAAAAABAE',
+    src: 'https://arquimia.pe/wp-content/uploads/2023/06/40376749d567fcf-1-1024x668.jpg',
     descripcion: 'Este elegante condominio moderno está ubicado en una tranquila zona residencial',
     ubicacion: '321 Second Street, Anytown, CA 987234',
     habitaciones: 4,
