@@ -31,6 +31,17 @@ const propiedadesEnVenta = [
     costo: 4.500,
     smoke: false,
     pets: true
+    },
+    {
+    nombre: 'Casa en exclusivo barrio',
+    src: 'https://i0.wp.com/www.socovesa.cl/blog/web/wp-content/uploads/2023/08/arquitectura-alkura.webp?resize=1000%2C500&ssl=1',
+    descripcion: 'Esta casa está ubicada en un exclusivo barrio. Cuenta con un amplio patio.',
+    ubicacion: '598 Linesky Avenue, Skyview City, CA 56789',
+    habitaciones: 4,
+    baños: 3,
+    costo: 4.500,
+    smoke: true,
+    pets: true
     }
 ]
 
@@ -66,6 +77,28 @@ const propiedadesAlquiler = [
     baños: 2,
     costo: 2.200,
     smoke: false,
+    pets: false
+    },
+    {
+    nombre: 'Departamento moderno en zona residencial',
+    src: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.yapo.cl%2Fbienes-raices-venta-de-propiedades-apartamentos%2Fregion-metropolitana-buin&psig=AOvVaw2_6IocHmBXVbx99G1lURqV&ust=1745033184873000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDW1a3R4IwDFQAAAAAdAAAAABAE',
+    descripcion: 'Este elegante condominio moderno está ubicado en una tranquila zona residencial',
+    ubicacion: '321 Second Street, Anytown, CA 987234',
+    habitaciones: 4,
+    baños: 3,
+    costo: 4.200,
+    smoke: false,
+    pets: true
+    },
+    {
+    nombre: 'Casa cercana a la naturaleza',
+    src: 'https://panelessip.cl/wp-content/uploads/2024/11/WhatsApp-Image-2024-04-18-at-10.07.11-6.jpeg',
+    descripcion: 'Esta moderna casa está ubicada cerca de un tranquilo bosque',
+    ubicacion: 'Second Street S/N, Anytown, CA 984764',
+    habitaciones: 2,
+    baños: 1,
+    costo: 1.200,
+    smoke: true,
     pets: false
     }
     
