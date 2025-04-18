@@ -1,0 +1,1 @@
+renderCasas(propiedadesEnVenta, ".propiedades-venta", propiedadesEnVenta.length)

@@ -1,0 +1,1 @@
+renderCasas(propiedadesAlquiler, ".propiedades-alquiler", propiedadesAlquiler.length)
