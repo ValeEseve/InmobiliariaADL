@@ -6,7 +6,7 @@ const propiedadesEnVenta = [
     ubicacion: '123 Luxury Lane, Prestige Suburb, CA 45678',
     habitaciones: 4,
     baños: 2,
-    costo: 5.000,
+    costo: "5.000",
     smoke: false,
     pets: false
     },
@@ -17,18 +17,18 @@ const propiedadesEnVenta = [
     ubicacion: '789 Mountain Road, Summit Peaks, CA 23456',
     habitaciones: 2,
     baños: 1,
-    costo: 1.200,
+    costo: "1.200",
     smoke: true,
     pets: true
     },
     {
     nombre: 'Penthouse de lujo con terraza panorámica',
-    src: 'https://resizer.glanacion.com/resizer/fhK-tSVag_8UGJjPMgWrspslPoU=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CUXVMXQE4JD5XIXX4X3PDZAVMY.jpg',
+    src: 'https://media.cnn.com/api/v1/images/stellar/prod/111-west-57th-street-quadplex-80-2-credit-to-hayes-davidson.jpg?q=w_1160,c_fill/f_webp',
     descripcion: 'Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares',
     ubicacion: '567 Skyline Avenue, Skyview City, CA 56789',
     habitaciones: 3,
     baños: 3,
-    costo: 4.500,
+    costo: "4.500",
     smoke: false,
     pets: true
     },
@@ -39,7 +39,7 @@ const propiedadesEnVenta = [
     ubicacion: '598 Linesky Avenue, Skyview City, CA 56789',
     habitaciones: 4,
     baños: 3,
-    costo: 4.500,
+    costo: "4.500",
     smoke: true,
     pets: true
     }
@@ -53,7 +53,7 @@ const propiedadesAlquiler = [
     ubicacion: '123 Main Street, Anytown, CA 91234',
     habitaciones: 2,
     baños: 2,
-    costo: 2.000,
+    costo: "2.000",
     smoke: false,
     pets: true
     },
@@ -64,7 +64,7 @@ const propiedadesAlquiler = [
     ubicacion: '456 Ocean Avenue, Seaside Town, CA 56789',
     habitaciones: 3,
     baños: 3,
-    costo: 2.500,
+    costo: "2.500",
     smoke: true,
     pets: true
     },
@@ -75,7 +75,7 @@ const propiedadesAlquiler = [
     ubicacion: '123 Main Street, Anytown, CA 91234',
     habitaciones: 2,
     baños: 2,
-    costo: 2.200,
+    costo: "2.200",
     smoke: false,
     pets: false
     },
@@ -86,7 +86,7 @@ const propiedadesAlquiler = [
     ubicacion: '321 Second Street, Anytown, CA 987234',
     habitaciones: 4,
     baños: 3,
-    costo: 4.200,
+    costo: "4.200",
     smoke: false,
     pets: true
     },
@@ -97,7 +97,7 @@ const propiedadesAlquiler = [
     ubicacion: 'Second Street S/N, Anytown, CA 984764',
     habitaciones: 2,
     baños: 1,
-    costo: 1.200,
+    costo: "1.200",
     smoke: true,
     pets: false
     }

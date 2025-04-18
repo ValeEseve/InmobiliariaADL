@@ -3,7 +3,7 @@ function renderCasas(casas, contenedor, max = 3){
     let html = ""
     for (let i = 0; i < Math.min(max, casas.length); i++){
         const casa = casas[i]; 
-        html.innerHTML +=`
+        html +=`
           <div class="col-md-4 mb-4">
             <div class="card">
               <img src="${casa.src}"
@@ -16,16 +16,14 @@ function renderCasas(casas, contenedor, max = 3){
                 <p><i class="fas fa-bed"></i> ${casa.habitaciones} Habitaciones |
                 <i class="fas fa-bath"></i> ${casa.baños} Baños </p>
                 <p><i class="fas fa-dollar-sign"></i> ${casa.costo}</p>
-                <span>${casa.smoke === true ? <p class="text-success">
-                    <i class="fas fa-smoking"></i> Permitido fumar
-                  </p> : <p class="text-danger">
-                    <i class="fas fa-smoking-ban"></i> No se permite fumar
-                  </p>}</span>
-                <span>${casa.pets === true ? <p class="text-success">
-                    <i class="fas fa-paw"></i> Mascotas permitidas
-                  </p> : <p class="text-danger">
-                    <i class="fas fa-ban"></i> No se permiten mascotas
-                  </p>} </span>
+                <p class="${casa.smoke ? 'text-success' : 'text-danger'}">
+                <i class="${casa.smoke ? 'fas fa-smoking' : 'fas fa-smoking-ban'}"></i> 
+                ${casa.smoke ? 'Permitido fumar' : 'No se permite fumar'}
+                </p>
+                <p class="${casa.pets ? 'text-success' : 'text-danger'}">
+                <i class="${casa.pets ? 'fas fa-paw' : 'fas fa-ban'}"></i> 
+                ${casa.pets ? 'Mascotas permitidas' : 'No se permiten mascotas'}
+                </p>
                 </p>
               </div>
             </div>
